@@ -1,0 +1,148 @@
+/*Gamereview stylesheet*/ 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/*Background images*/
+.Homepage {
+	background-image: url("Home.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+.GTA5img {
+	background-image: url("GTA5.jpg"); 
+    height: 100%;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+.BF1img {
+	background-image: url("BF1.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+.RE7img {
+   	background-image: url("RE7.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+.COD4img {
+    background-image: url("COD4.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+.RLimg {
+	background-image: url("RL.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+/*The Rest*/
+header h1 {	
+    text-align: center;
+	font-size: 48px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article h1 {
+	color: #ff1a1a;
+}
+
+p { 
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff1a1a;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+article {
+    margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right:-155px;
+	margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+	font-size: 20px;
+	max-width: 40%;
+	float: left;
+	background: rgba(255,255,255,0.5);
+}
+
+aside {
+    float: left;
+    width: 500px;
+    font-size: 17.5px;
+	font-family: arial, sans-serif;
+	margin-left: 170px; 
+}
+
+iframe { 
+    margin-top: 15px;
+}
+
+table {
+    color: black;
+    border-collapse: collapse;
+    width: 100%;
+	float: center right;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr{
+    background-color: rgba(255,255,255,0.5);
+}
+
